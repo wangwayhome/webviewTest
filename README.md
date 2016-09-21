@@ -2,7 +2,7 @@
 抓取webview 元素 请求头相应头
 
 集成方法
-
+<p>
 1、#import "FilteredWebCache.h"
 
 2、
@@ -15,5 +15,5 @@
                                         diskCapacity: discCapacity diskPath:documentPath];
     [NSURLCache setSharedURLCache:_cache];
     
-
+</p>
 
