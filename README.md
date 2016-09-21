@@ -3,6 +3,7 @@
 
 集成方法
 ```
+<p>
 1、#import "FilteredWebCache.h"
 
 2、
@@ -14,6 +15,7 @@
     [[FilteredWebCache alloc] initWithMemoryCapacity: memoryCapacity
                                         diskCapacity: discCapacity diskPath:documentPath];
     [NSURLCache setSharedURLCache:_cache];
-    
+   
+   </p> 
 ```
 
